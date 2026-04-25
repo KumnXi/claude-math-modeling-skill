@@ -61,16 +61,17 @@
 ---
 
 ## 📂 自动生成的项目结构
-技能会自动帮你整理以下目录，不用手动创建：
-your-project/
-├── problem_A/ # 子问题 A 的求解文件
-│ ├── code/ # Python 求解脚本
-│ ├── data/ # 题目数据文件（Excel/CSV）
-│ ├── figures/ # 结果可视化图表
-│ └── report/ # 求解分析报告
-├── problem_B/ # 子问题 B 的求解文件（结构同上）
-└── problem_C/ # 子问题 C 的求解文件（结构同上）
+技能会自动帮你整理以下目录，无需手动创建，让项目文件井井有条：
 
+```text
+your-project/
+├── problem_A/          # 子问题A的求解文件
+│   ├── code/           # Python求解脚本
+│   ├── data/           # 题目数据文件（Excel/CSV）
+│   ├── figures/        # 结果可视化图表
+│   └── report/         # 求解分析报告
+├── problem_B/          # 子问题B的求解文件（结构同上）
+└── problem_C/          # 子问题C的求解文件（结构同上）
 ---
 
 ## ❓ 常见问题
