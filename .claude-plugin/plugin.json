@@ -1,0 +1,17 @@
+{
+  "name": "math-modeling-solver",
+  "description": "5-phase workflow to solve math modeling contest problems with reproducible code",
+  "version": "1.0.0",
+  "author": {
+    "name": "KumnXi"
+  },
+  "homepage": "https://github.com/KumnXi/claude-math-modeling-skill",
+  "repository": "https://github.com/KumnXi/claude-math-modeling-skill",
+  "keywords": [
+    "math-modeling",
+    "claude-code",
+    "skill",
+    "competition",
+    "optimization"
+  ]
+}

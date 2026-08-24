@@ -1,0 +1,14 @@
+{
+  "name": "math-modeling-skills",
+  "description": "Systematic math modeling problem-solving workflow for coding agents",
+  "owner": { "name": "KumnXi" },
+  "plugins": [
+    {
+      "name": "math-modeling-solver",
+      "description": "5-phase workflow to solve math modeling contest problems with reproducible code",
+      "version": "1.0.0",
+      "source": "./",
+      "author": { "name": "KumnXi" }
+    }
+  ]
+}
