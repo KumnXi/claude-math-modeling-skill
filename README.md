@@ -11,7 +11,7 @@ AI-assisted math modeling usually fails for three reasons: the process drifts
 without a fixed workflow, generated code is not reproducible, and the final
 report is inconsistent in quality. This skill fixes all three by driving Claude
 Code through a fixed five-phase pipeline — problem understanding, solution
-architecture design, solver implementation, validation, and report generation.
+architecture design, solver implementation, validation, and result analysis.
 Every run follows the same structure and produces runnable Python code plus a
 paper-ready analysis report. You focus on the model; the skill keeps the
 process honest and repeatable.
@@ -92,6 +92,16 @@ special requirements.
 3. **Context limit reached during a run?**
    Run `/compact` to compress the conversation, or split the workflow across
    phases (finish problem 1 before starting problem 2).
+
+## Publishing
+
+For maintainers releasing this skill to a marketplace:
+
+1. Tag and push the release: `git tag v1.0.0 && git push origin v1.0.0`
+   (the version must match `1.0.0` in `marketplace.json` / `plugin.json`).
+2. Validate the manifests locally: `claude plugin validate .`
+3. Submit the plugin to the official Claude Code marketplace or the
+   [skill.sh](https://skill.sh/) community.
 
 ## License & credits
 
