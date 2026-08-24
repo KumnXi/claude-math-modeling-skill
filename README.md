@@ -18,9 +18,14 @@ process honest and repeatable.
 
 ## Demo / effect comparison
 
-> Coming soon — a before/after comparison of solving a typical Huazhong Cup
-> problem with and without this skill (see `docs/comparison.md`, currently in
-> preparation).
+Want to see the skill's value for yourself? We provide a **with vs without
+skill** comparison template: solve the same Huazhong Cup problem twice — once
+with the skill, once without — and fill in the results.
+
+> 📋 **[`docs/comparison.md`](docs/comparison.md)** — experiment design,
+> 5-dimension comparison table, step-by-step procedure, and result-filling
+> guide. The comparison experiment is pending execution; screenshots and
+> scores will be added once it is run.
 
 ## Installation
 
